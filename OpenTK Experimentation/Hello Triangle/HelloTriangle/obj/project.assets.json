@@ -890,11 +890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/peter-gori/RiderProjects/Rendering/OpenTK/Hello Triangle/HelloTriangle/Hello Triangle.csproj",
+      "projectUniqueName": "/home/peter-gori/RiderProjects/NEA/Rubik-s-Cube-Solver/OpenTK Experimentation/Hello Triangle/HelloTriangle/Hello Triangle.csproj",
       "projectName": "Hello Triangle",
-      "projectPath": "/home/peter-gori/RiderProjects/Rendering/OpenTK/Hello Triangle/HelloTriangle/Hello Triangle.csproj",
+      "projectPath": "/home/peter-gori/RiderProjects/NEA/Rubik-s-Cube-Solver/OpenTK Experimentation/Hello Triangle/HelloTriangle/Hello Triangle.csproj",
       "packagesPath": "/home/peter-gori/.nuget/packages/",
-      "outputPath": "/home/peter-gori/RiderProjects/Rendering/OpenTK/Hello Triangle/HelloTriangle/obj/",
+      "outputPath": "/home/peter-gori/RiderProjects/NEA/Rubik-s-Cube-Solver/OpenTK Experimentation/Hello Triangle/HelloTriangle/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/peter-gori/.nuget/NuGet/NuGet.Config"

@@ -8,16 +8,26 @@ namespace Hello_Triangle;
 public class Game : GameWindow
 {
 	int VertexBufferObject;
+	int ElementBufferObject;
 	int VertexArrayObject;
 	Shader shader;
 	static string AssetsPath = "../../../Assets";
 	static string ShadersPath = Path.Combine(AssetsPath, "Shaders");
 	
-	private float[] vertices = [
-		-0.5f, -0.5f, 0.0f,
-		0.5f, -0.5f, 0.0f,
-		0.0f, 0.5f, 0.0f
+	float[] vertices =
+	[
+		0.5f,  0.5f, 0.0f,  // top right
+		0.5f, -0.5f, 0.0f,  // bottom right
+		-0.5f, -0.5f, 0.0f,  // bottom left
+		-0.5f,  0.5f, 0.0f   // top left
 	];
+	
+	uint[] indices =
+	[	// note that we start from 0!
+		0, 1, 3,   // first triangle
+		1, 2, 3    // second triangle
+	];
+	
 	public Game(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)
 		: base(gameWindowSettings, nativeWindowSettings)
 	{
@@ -37,6 +47,9 @@ public class Game : GameWindow
 		GL.BindVertexArray(VertexArrayObject);
 		GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 3 * sizeof(float), 0);
 		GL.EnableVertexAttribArray(0);
+		ElementBufferObject = GL.GenBuffer();
+		GL.BindBuffer(BufferTarget.ElementArrayBuffer, ElementBufferObject);
+		GL.BufferData(BufferTarget.ElementArrayBuffer, indices.Length * sizeof(uint), indices, BufferUsageHint.StaticDraw);
 		shader = new Shader(Path.Combine(ShadersPath, "shader.vert"), Path.Combine(ShadersPath, "shader.frag"));
 		shader.Use();
 	}
@@ -50,7 +63,7 @@ public class Game : GameWindow
 		// Code Goes Here
 		shader.Use();
 		GL.BindVertexArray(VertexArrayObject);
-		GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
+		GL.DrawElements(PrimitiveType.Triangles, indices.Length, DrawElementsType.UnsignedInt, 0);
 		SwapBuffers();
 	}
 	
