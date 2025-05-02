@@ -1,0 +1,410 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Hello Triangle/1.0.0": {
+        "dependencies": {
+          "GtkSharp": "3.24.24.95",
+          "OpenTK": "4.9.3",
+          "StbImageSharp": "2.30.15",
+          "glfw": "3.4.0"
+        },
+        "runtime": {
+          "Hello Triangle.dll": {}
+        }
+      },
+      "AtkSharp/3.24.24.95": {
+        "dependencies": {
+          "GLibSharp": "3.24.24.95"
+        },
+        "runtime": {
+          "lib/net6.0/AtkSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "CairoSharp/3.24.24.95": {
+        "runtime": {
+          "lib/net6.0/CairoSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "GdkSharp/3.24.24.95": {
+        "dependencies": {
+          "CairoSharp": "3.24.24.95",
+          "GLibSharp": "3.24.24.95",
+          "GioSharp": "3.24.24.95",
+          "PangoSharp": "3.24.24.95"
+        },
+        "runtime": {
+          "lib/net6.0/GdkSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "GioSharp/3.24.24.95": {
+        "dependencies": {
+          "GLibSharp": "3.24.24.95"
+        },
+        "runtime": {
+          "lib/net6.0/GioSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "glfw/3.4.0": {},
+      "GLibSharp/3.24.24.95": {
+        "runtime": {
+          "lib/net6.0/GLibSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "GtkSharp/3.24.24.95": {
+        "dependencies": {
+          "AtkSharp": "3.24.24.95",
+          "CairoSharp": "3.24.24.95",
+          "GLibSharp": "3.24.24.95",
+          "GdkSharp": "3.24.24.95",
+          "GioSharp": "3.24.24.95",
+          "PangoSharp": "3.24.24.95"
+        },
+        "runtime": {
+          "lib/net6.0/GtkSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "OpenTK/4.9.3": {
+        "dependencies": {
+          "OpenTK.Audio.OpenAL": "4.9.3",
+          "OpenTK.Compute": "4.9.3",
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.Graphics": "4.9.3",
+          "OpenTK.Input": "4.9.3",
+          "OpenTK.Mathematics": "4.9.3",
+          "OpenTK.Windowing.Common": "4.9.3",
+          "OpenTK.Windowing.Desktop": "4.9.3",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.3"
+        }
+      },
+      "OpenTK.Audio.OpenAL/4.9.3": {
+        "dependencies": {
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.Mathematics": "4.9.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Compute/4.9.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Core/4.9.3": {
+        "runtime": {
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Graphics/4.9.3": {
+        "dependencies": {
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.Mathematics": "4.9.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Input/4.9.3": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Mathematics/4.9.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Mathematics.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.redist.glfw/3.3.8.39": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libglfw-wayland.so.3.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libglfw.so.3.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libglfw.3.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libglfw.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/glfw3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/glfw3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Common/4.9.3": {
+        "dependencies": {
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.Mathematics": "4.9.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Desktop/4.9.3": {
+        "dependencies": {
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.Mathematics": "4.9.3",
+          "OpenTK.Windowing.Common": "4.9.3",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.9.3": {
+        "dependencies": {
+          "OpenTK.Core": "4.9.3",
+          "OpenTK.redist.glfw": "3.3.8.39"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "assemblyVersion": "4.9.3.0",
+            "fileVersion": "4.9.3.0"
+          }
+        }
+      },
+      "PangoSharp/3.24.24.95": {
+        "dependencies": {
+          "CairoSharp": "3.24.24.95",
+          "GLibSharp": "3.24.24.95"
+        },
+        "runtime": {
+          "lib/net6.0/PangoSharp.dll": {
+            "assemblyVersion": "3.24.24.95",
+            "fileVersion": "3.24.24.95"
+          }
+        }
+      },
+      "StbImageSharp/2.30.15": {
+        "runtime": {
+          "lib/netstandard2.0/StbImageSharp.dll": {
+            "assemblyVersion": "2.30.15.0",
+            "fileVersion": "2.30.15.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "Hello Triangle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtkSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LnSfsc0y11gfzczZj5bnpwcFkXFZuVTSSd92ML/FcHIM7FU+cAfm1UkAonv5BdwTRhzDbNDE39vihao/k75sUA==",
+      "path": "atksharp/3.24.24.95",
+      "hashPath": "atksharp.3.24.24.95.nupkg.sha512"
+    },
+    "CairoSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EZ9KT3pwVAol35XbZW0Uwdg2LqhDvPnWdhqIrsedhDx+Omnu56hLzxh8mZGqmQvEwJE8Opbda4w9CqDtXbX6Vw==",
+      "path": "cairosharp/3.24.24.95",
+      "hashPath": "cairosharp.3.24.24.95.nupkg.sha512"
+    },
+    "GdkSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rABpIGkxr8lOdyhEmrKXzjih3z3932kjqUmm5qaQhWVSvu9YepEk3J1FApgnKCW/EWEzlerzxnJArsyOlgMsZQ==",
+      "path": "gdksharp/3.24.24.95",
+      "hashPath": "gdksharp.3.24.24.95.nupkg.sha512"
+    },
+    "GioSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-avYEDFlYgbogb+Y7ZhIXQpyJfL83bnPpBKY642YEW9PQ+pRK3qf2k0opvd5oHccXfByj6kAQjmRUSIS0pj19Fg==",
+      "path": "giosharp/3.24.24.95",
+      "hashPath": "giosharp.3.24.24.95.nupkg.sha512"
+    },
+    "glfw/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+dIslj089MmFolYqg2mCZ8PQfiaOs5aBQJ7vNp1kkTPtks+DWt/9BNJxSjUSRnkp5rL+kjpHZ/tVqgQ//Y6tRQ==",
+      "path": "glfw/3.4.0",
+      "hashPath": "glfw.3.4.0.nupkg.sha512"
+    },
+    "GLibSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1viZRMVjddf2HUCW7WDXT47rHssteHkAOimXQ2/pI8oGrPGNFuuw5MbX8BOIy73hCWVqo7JEMONv3z32OrCoCQ==",
+      "path": "glibsharp/3.24.24.95",
+      "hashPath": "glibsharp.3.24.24.95.nupkg.sha512"
+    },
+    "GtkSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RRUY45hAa5gsMcadvVjcLUzMjVtmuHSYTcIwM6j8LNgKhzFFHk69qM1D5ULfGxaWmVjicqNWiFtOtk8WsvPqaQ==",
+      "path": "gtksharp/3.24.24.95",
+      "hashPath": "gtksharp.3.24.24.95.nupkg.sha512"
+    },
+    "OpenTK/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KdqV6GQHvVqd9/NYHImIgByIQtULb9wa32R/f0D8UsGmHoXGCYk3go14jSVSeAGDloW/CTvOWdwNXcIBP1Gqlw==",
+      "path": "opentk/4.9.3",
+      "hashPath": "opentk.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Audio.OpenAL/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2YcW5A9QRy0nxtBGuBqgihNBK41MCbP4ojIerlOXzNnZY8OBH3RyTMR3djafblg0skvFmR93K9tBI5xxsgXVlA==",
+      "path": "opentk.audio.openal/4.9.3",
+      "hashPath": "opentk.audio.openal.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Compute/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-He71Vgak/wliw0zOe+O5zbCKCKNE03LgxowIX6EXBkY3OApVxpw69lgCLRsr/FVWGF2l9jA0o5EiDA7FYVrz1A==",
+      "path": "opentk.compute/4.9.3",
+      "hashPath": "opentk.compute.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Core/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gNUBQZAoTBE3A28OMnr3xHrTXONqzvqhJ1UWGa+1iaAHkQfCU8Tw2mboNtgewBiJPGNO0hFm9EPs/a9tpAxYMw==",
+      "path": "opentk.core/4.9.3",
+      "hashPath": "opentk.core.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Graphics/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gVcXN7/w5UHopNCAFvcyN8N41j45FDuZ8GbKEiI2KCWfJ2DTiC+kROvZ9Q/OtQZkAiePmeM+LV8F0HRAGMoKPw==",
+      "path": "opentk.graphics/4.9.3",
+      "hashPath": "opentk.graphics.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Input/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SwxHZvjtEQfM9QFRncNanXbWrAgDwj3s/AGKzhM0wX5Qu0BDMLRQXxqNCtNRNHHO/QgPK4NqZAvyAG96DuVqGw==",
+      "path": "opentk.input/4.9.3",
+      "hashPath": "opentk.input.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Mathematics/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nYsHqqVijXzIasdI+hKn+FFpvvcNw/nONWRWGEqt8BaNCh9RHM2bY5Gfpe9y1jw9pJW/t4GgzGfp1woxcQtwBQ==",
+      "path": "opentk.mathematics/4.9.3",
+      "hashPath": "opentk.mathematics.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.redist.glfw/3.3.8.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JzjaBzHTyKenUk9CXOYIqA/v7VMnjFnqmd3SKR3I1YpuOTu/H3ohyy3o+ZfMCQ6IRKs7CLfSPXMarKLvwD0WgQ==",
+      "path": "opentk.redist.glfw/3.3.8.39",
+      "hashPath": "opentk.redist.glfw.3.3.8.39.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Common/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A1AfUP7uxCIj/UFfYo3nBdL6uf4A9c1kM52WOUwICC3ck7+VC7bYvm7B5Qx912Ej8oAg0IZnHWL34lySJGgt/Q==",
+      "path": "opentk.windowing.common/4.9.3",
+      "hashPath": "opentk.windowing.common.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Desktop/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/dYHSesaCUfknOeru7NmwXO+vzW9sNwsjK1w6pZ1NvHNf4LbXP+31QByu1YFw8H99CBhQT4PtCXH7j1FPUUaQQ==",
+      "path": "opentk.windowing.desktop/4.9.3",
+      "hashPath": "opentk.windowing.desktop.4.9.3.nupkg.sha512"
+    },
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R25vUotlUhf/bKh+SAtrIjbfMihR9XLUhhAmMNkTd9oKFqyFl2SmyNNs2J04CGOI/H3CzFnP1er6ur0h98hDxw==",
+      "path": "opentk.windowing.graphicslibraryframework/4.9.3",
+      "hashPath": "opentk.windowing.graphicslibraryframework.4.9.3.nupkg.sha512"
+    },
+    "PangoSharp/3.24.24.95": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H7JeyEvLsgvsbamGpRgoNtdvzPiGwwsUuoeTobN1C/JRjw1J8Snw0yf2WBr7CKx5GLwbrwpQYOb7N/HD17ME8A==",
+      "path": "pangosharp/3.24.24.95",
+      "hashPath": "pangosharp.3.24.24.95.nupkg.sha512"
+    },
+    "StbImageSharp/2.30.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7QqbupVhz2kcFUPTgMw4iHR9rYDHGundzzee19Mwmd1typ2Lnv8EVJcLJxlkeBM2+4ex0NwsMtdbGSJctp1XCQ==",
+      "path": "stbimagesharp/2.30.15",
+      "hashPath": "stbimagesharp.2.30.15.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}

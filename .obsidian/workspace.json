@@ -170,10 +170,18 @@
   },
   "active": "5bbeafec4f11e307",
   "lastOpenFiles": [
-    "Documentation/16525_7517-c_9597_NEA REPORT.odt",
-    "Documentation/Analysis (Copy).odt",
-    "Documentation/Analysis.odt",
-    "Documentation/lu86577hyzv1.tmp",
-    "Documentation"
+    "OpenTK Experimentation/Hello Triangle/Hello Triangle.sln",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/wall.jpg",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.vert",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.frag",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/PangoSharp.dll",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/GioSharp.dll",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/GLibSharp.dll",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/GtkSharp.dll",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/CairoSharp.dll",
+    "OpenTK Experimentation/HelloTriangle/Assets/Textures/wall.jpg"
   ]
 }
