@@ -4,7 +4,7 @@ Created April 29 2025
 
 TODO:
 - [X] Render a Triangle
-- [ ] Render a square
+- [X] Render a square
 - [ ] GTK Window to set the colour of the square
 - [ ] Render a cube
 - [ ] Make the cube rotatable
