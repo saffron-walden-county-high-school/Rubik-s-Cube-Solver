@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rubik-s-Cube-Solver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a463166566a4f09752e5aa3558228550fcfb4193")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c71a37020c3dff482e2b5dc5ab36fca4ed11dcf7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rubik-s-Cube-Solver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rubik-s-Cube-Solver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
