@@ -170,8 +170,10 @@
   },
   "active": "5bbeafec4f11e307",
   "lastOpenFiles": [
-    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.frag~",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Game.cs~",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.vert~",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.frag~",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/RedCross.png",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/RedSquare.jpg",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/OpenGLFace.png",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/obj/Debug/net9.0/Hello Triangle.sourcelink.json",

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using System.Net.Mime;
 using OpenTK.Graphics.OpenGL4;
+using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
@@ -76,7 +77,7 @@ public class Game : GameWindow
 		GL.VertexAttribPointer(texCoordLocation, 2, VertexAttribPointerType.Float, false, 5 * sizeof(float), 3 * sizeof(float));
 
 		texture0 = Texture.LoadFromFile(Path.Combine(TexturesPath, "wall.jpg"));
-		texture1 = Texture.LoadFromFile(Path.Combine(TexturesPath, "RedSquare.jpg"));
+		texture1 = Texture.LoadFromFile(Path.Combine(TexturesPath, "RedCross.png"));
 		shader.SetInt("texture0", 0);
 		shader.SetInt("texture1", 1);
 		texture0.Use(TextureUnit.Texture0);
@@ -85,20 +86,24 @@ public class Game : GameWindow
 	protected override void OnRenderFrame(FrameEventArgs e)
 	{
 		base.OnRenderFrame(e);
-
-		// render
-		// clear the colourbuffer
+		
 		GL.Clear(ClearBufferMask.ColorBufferBit);
 		GL.BindVertexArray(VertexArrayObject);
+
+		var transform = Matrix4.Identity;
+		transform *= Matrix4.CreateRotationZ(MathHelper.DegreesToRadians(20f));
+		transform *= Matrix4.CreateScale(0.5f);
+		transform *= Matrix4.CreateTranslation(0.1f, 0.1f, 0.0f);
 		
 		texture0.Use(TextureUnit.Texture0);
 		texture1.Use(TextureUnit.Texture1);
 		shader.Use();
 		
+		shader.SetMatrix4("transform", transform);
+		
 		GL.DrawElements(PrimitiveType.Triangles, indices.Length, DrawElementsType.UnsignedInt, 0);
 		
-		// swap buffers
-		Context.SwapBuffers();
+		SwapBuffers();
 	}
 	
 	
