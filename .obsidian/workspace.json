@@ -170,7 +170,10 @@
   },
   "active": "5bbeafec4f11e307",
   "lastOpenFiles": [
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.frag~",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Game.cs~",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/RedSquare.jpg",
+    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures/OpenGLFace.png",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/obj/Debug/net9.0/Hello Triangle.sourcelink.json",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/obj/8cad78a5-c401-4468-a3dd-e4f4bf7e9889.tmp",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/obj/d8e241ce-5515-46fb-b5c2-a6797908a88d.tmp",
@@ -180,8 +183,6 @@
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders/shader.frag",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Textures",
     "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets/Shaders",
-    "OpenTK Experimentation/Hello Triangle/HelloTriangle/Assets",
-    "OpenTK Experimentation/Hello Triangle/HelloTriangle/bin/Debug/net9.0/PangoSharp.dll",
     "OpenTK Experimentation/HelloTriangle/Assets/Textures/wall.jpg"
   ]
 }

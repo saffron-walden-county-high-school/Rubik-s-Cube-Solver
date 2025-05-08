@@ -25,7 +25,7 @@ public class Game : GameWindow
 		// note that we start from 0!
 		0, 1, 3,   // first triangle
 		1, 2, 3,    // second triangle
-		0, 3, 4
+		0, 3, 4		// make it a pentagon
 	];
 	
 	int VertexBufferObject;
@@ -33,7 +33,8 @@ public class Game : GameWindow
 	int VertexArrayObject;
 	
 	Shader shader;
-	Texture texture;
+	Texture texture0;
+	Texture texture1;
 	
 	static string AssetsPath = "../../../Assets";
 	static string ShadersPath = Path.Combine(AssetsPath, "Shaders");
@@ -74,8 +75,11 @@ public class Game : GameWindow
 		GL.EnableVertexAttribArray(texCoordLocation);
 		GL.VertexAttribPointer(texCoordLocation, 2, VertexAttribPointerType.Float, false, 5 * sizeof(float), 3 * sizeof(float));
 
-		texture = Texture.LoadFromFile(Path.Combine(TexturesPath, "wall.jpg"));
-		texture.Use(TextureUnit.Texture0);
+		texture0 = Texture.LoadFromFile(Path.Combine(TexturesPath, "wall.jpg"));
+		texture1 = Texture.LoadFromFile(Path.Combine(TexturesPath, "RedSquare.jpg"));
+		shader.SetInt("texture0", 0);
+		shader.SetInt("texture1", 1);
+		texture0.Use(TextureUnit.Texture0);
 	}
 	
 	protected override void OnRenderFrame(FrameEventArgs e)
@@ -85,15 +89,16 @@ public class Game : GameWindow
 		// render
 		// clear the colourbuffer
 		GL.Clear(ClearBufferMask.ColorBufferBit);
-
 		GL.BindVertexArray(VertexArrayObject);
-		texture.Use(TextureUnit.Texture0);
+		
+		texture0.Use(TextureUnit.Texture0);
+		texture1.Use(TextureUnit.Texture1);
 		shader.Use();
 		
 		GL.DrawElements(PrimitiveType.Triangles, indices.Length, DrawElementsType.UnsignedInt, 0);
 		
 		// swap buffers
-		SwapBuffers();
+		Context.SwapBuffers();
 	}
 	
 	
